@@ -1,6 +1,8 @@
 # IOGC manuscript code (Smail et al., AJHG, 2022)
 
-# 
+**1. Filter rare variants according to gene expression outlier status**
+
+
 
 **Resource availability:**
 * GTEx (v8) RNA-seq and WGS data is available from dbGaP (dbGaP Accession phs000424.v8.p2)
