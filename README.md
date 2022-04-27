@@ -1,5 +1,4 @@
 # IOGC manuscript code (Smail et al., AJHG, 2022)
-# (Currently updating)
 
 Scripts required to identify expression outlier-associated rare variants and compute IOGC burden scores. 
 
@@ -23,4 +22,4 @@ Code to identify rare variants in GTEx (v8) associated with outlier and non-outl
 `rnaseq/maf_cadd_match_tissue.r` takes output files from `rnaseq/get_vars.r` and for each outlier variants identifies valid non-outlier variants matched on gnomAD MAF and CADD score. Outlier variants without non-outlier variant matches are removed. For computational efficiency, this script is designed to be run separately for each tissue.
 
 
-
+**Currently updating pipeline!
