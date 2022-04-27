@@ -1,4 +1,5 @@
 # IOGC manuscript code (Smail et al., AJHG, 2022)
+# (Currently updating)
 
 Scripts required to identify expression outlier-associated rare variants and compute IOGC burden scores. 
 
