@@ -1,12 +1,12 @@
 # IOGC manuscript code (Smail et al., AJHG, 2022)
 
-Scripts required to identify expression outlier-associated rare variants and compute IOGC burden scores.
+Scripts required to identify expression outlier-associated rare variants and compute IOGC burden scores. 
 
 **1. Filter rare variants according to gene expression outlier status**
 
 Code to identify rare variants in GTEx (v8) associated with outlier and non-outlier gene expression and imputed in UK Biobank. 
 
-Script `TODO` 
+Script `get_vars.r` takes (i.) a list of variants linked to genes (or specified window around gene) and annotated with gnomAD MAF and CADD score, (ii.) UK Biobank GWAS summary statistics file, (iii.) corrected GTEx RNA-seq data across tissues.
 
 
 **Resource availability**
