@@ -1,4 +1,4 @@
-# outlier_prs
+# IOGC manuscript code (Smail et al., AJHG, 2022
 
 **Resource availability:**
 * GTEx (v7) RNA-seq and WGS data is available from dbGaP (dbGaP Accession phs000424.v7.p2)
