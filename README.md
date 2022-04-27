@@ -6,7 +6,7 @@ Scripts required to identify expression outlier-associated rare variants and com
 
 Code to identify rare variants in GTEx (v8) associated with outlier and non-outlier gene expression and imputed in UK Biobank. 
 
-Script `get_vars.r` takes (i.) a list of variants linked to genes (or specified window around gene) and annotated with gnomAD MAF and CADD score, (ii.) UK Biobank GWAS summary statistics file, (iii.) corrected GTEx RNA-seq data across tissues.
+Script `get_vars.r` takes (i.) a list of variants linked to genes (or specified window around gene) and annotated with gnomAD MAF and CADD score, (ii.) UK Biobank GWAS summary statistics file, (iii.) corrected GTEx RNA-seq data across tissues. The scripts performs initial filtering of variants based on imputation status in UKB and individual comparisons with respect to GTEx expression outlier status.
 
 
 **Resource availability**
