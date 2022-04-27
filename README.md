@@ -1,6 +1,6 @@
 # IOGC manuscript code (Smail et al., AJHG, 2022)
 
-Scripts required to identify expression outlier-associated rare variants and compute IOGC burden score.
+Scripts required to identify expression outlier-associated rare variants and compute IOGC burden scores.
 
 **1. Filter rare variants according to gene expression outlier status**
 
