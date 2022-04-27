@@ -2,7 +2,7 @@
 
 **1. Filter rare variants according to gene expression outlier status**
 
-
+Code to identify rare variants in GTEx (v8) associated with outlier and non-outlier gene expression and imputed in UK Biobank. 
 
 
 **Resource availability**
