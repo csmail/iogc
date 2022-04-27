@@ -19,7 +19,9 @@ Code to identify rare variants in GTEx (v8) associated with outlier and non-outl
 
 `rnaseq/get_vars.r` takes (i.) a list of variants linked to gene body (or specified window around gene) and annotated with gnomAD MAF and CADD score, (ii.) UK Biobank GWAS summary statistics file, (iii.) corrected GTEx RNA-seq data across tissues. The scripts performs initial filtering of variants based on imputation status in UKB and individual comparisons with respect to GTEx expression outlier status. Outputs file containing filtered variants passing specified expression outlier Z-score thresholds and non-outliers.
 
-`rnaseq/maf_cadd_match_tissue.r` takes output files from `rnaseq/get_vars.r` and for each outlier variants identifies valid non-outlier variants matched on gnomAD MAF and CADD score. Outlier variants without non-outlier variant matches are removed. For computational efficiency, this script is designed to be run separately for each tissue.
+`rnaseq/maf_cadd_match_tissue.r` takes output files from `rnaseq/get_vars.r` and for each outlier variants identifies valid non-outlier variants matched on gnomAD MAF and CADD score. Outlier variants without non-outlier variant matches are removed. For computational efficiency, this script is designed to be run separately for each GTEx tissue.
+
+
 
 
 **Currently updating pipeline!**
