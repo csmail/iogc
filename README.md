@@ -2,7 +2,7 @@
 
 Scripts required to identify expression outlier-associated rare variants and compute IOGC burden scores. 
 
-**Resource availability**
+# Resource availability
 * GTEx (v8) RNA-seq and WGS data is available from dbGaP (dbGaP Accession phs000424.v8.p2)
 * GTEx (v8) eQTL summary statistics were obtained from the GTEx Portal available at https://gtexportal.org/home/datasets 
 * UK Biobank (UKB) data was obtained under application number 24983 (PI: Dr. Manuel Rivas)
