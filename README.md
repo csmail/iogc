@@ -25,4 +25,6 @@ Code to identify rare variants in GTEx (v8) associated with outlier and non-outl
 
 **2. Calculate IOGC burden scores**
 
-`iogc_calc/iogc_calc.r` combines indivdual-level outlier variant genotypes, PRS, phenotype and covariates and calculates IOGC burden scores.
+`iogc_calc/plink_var_process.r` is a helper script to filter and format plink output containing outlier variant genotypes. For computational efficiency, this script is designed to be run separately for each chromosome.
+
+`iogc_calc/iogc_calc.r` combines individual-level outlier variant genotypes, PRS, phenotype and covariates and calculates IOGC burden scores.
