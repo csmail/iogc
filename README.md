@@ -25,6 +25,4 @@ Code to identify rare variants in GTEx (v8) associated with outlier and non-outl
 
 **2. Calculate IOGC burden scores**
 
-
-
-**Note: Currently updating pipeline!**
+`iogc_calc/calc.r` combines indivdual-level outlier variant genotypes, PRS, phenotype and covariates and calculates IOGC burden scores.
