@@ -12,7 +12,7 @@ Scripts required to identify expression outlier-associated rare variants and com
 
 **1. Filter rare variants according to gene expression outlier status**
 
-Code to identify rare variants in GTEx (v8) associated with outlier and non-outlier gene expression and imputed in UK Biobank. RNA-seq and WGS data was processed following instructions described in Ferraro, et al. Science (2020) (https://www.science.org/doi/10.1126/science.aaz5900) using code modified from scripts available at https://github.com/joed3/GTExV6PRareVariation.
+Code to identify rare variants in GTEx (v8) associated with outlier and non-outlier gene expression and imputed in UK Biobank. RNA-seq and WGS data was processed following instructions outlined in Ferraro, et al. Science (2020) (https://www.science.org/doi/10.1126/science.aaz5900).
 
 `rnaseq/get_vars.r` takes (i.) a list of variants linked to gene body (or specified window around gene) and annotated with gnomAD MAF and CADD score, (ii.) UK Biobank GWAS summary statistics file, (iii.) corrected GTEx RNA-seq data across tissues. The scripts performs initial filtering of variants based on imputation status in UKB and individual comparisons with respect to GTEx expression outlier status. Outputs file containing filtered variants passing specified expression outlier Z-score thresholds and non-outliers. This is the file used for later calculating outlier variant IOGC burden scores.
 
